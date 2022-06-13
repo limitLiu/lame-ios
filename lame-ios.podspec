@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.ios.preserve_paths = "src/ios/#{s.version}/include"
   s.ios.header_mappings_dir = "src/ios/#{s.version}/include"
+
   s.ios.source_files        = "src/ios/#{s.version}/include/#{libmp3lame}/*.h"
   s.ios.vendored_libraries  = "src/ios/#{s.version}/lib/#{libmp3lame}.a"
   s.ios.public_header_files = "src/ios/#{s.version}/include/#{libmp3lame}/*.h"
