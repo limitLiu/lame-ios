@@ -1,12 +1,11 @@
 libmp3lame = 'libmp3lame'
-
-NAME = "lame-ios"
-VERSION = "3.100"
+name = "lame-ios"
+version = "3.100"
 
 Pod::Spec.new do |s|
 
-  s.name         = "#{NAME}"
-  s.version      = "#{VERSION}"
+  s.name         = "#{name}"
+  s.version      = "#{version}"
   s.summary      = "A pod repo of 3.100 lame static libraries for ios."
   s.description  = "FFmpeg code base"
 
